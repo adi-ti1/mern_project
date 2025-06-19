@@ -1,0 +1,84 @@
+.ezy__nav5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ezy__nav5.light {
+  background-color: #ffffff;
+}
+
+.ezy__nav5 .navbar-toggler {
+  border: none;
+  padding: 0;
+  width: 30px;
+  height: 20px;
+  position: relative;
+}
+
+.ezy__nav5 .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.ezy__nav5 .navbar-toggler span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #000000;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+}
+
+.ezy__nav5 .navbar-toggler span::before,
+.ezy__nav5 .navbar-toggler span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #000000;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+}
+
+.ezy__nav5 .navbar-toggler span::before {
+  top: -8px;
+}
+
+.ezy__nav5 .navbar-toggler span::after {
+  bottom: -8px;
+}
+
+.ezy__nav5 .nav-link {
+  padding: 0.5rem 1rem;
+  color: #000000;
+}
+
+.ezy__nav5 .nav-link:hover {
+  color: #0d6efd;
+}
+
+.ezy__nav5-btn {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border: none;
+}
+
+.ezy__nav5-btn:hover {
+  background-color: #0b5ed7;
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  .ezy__nav5 .navbar-collapse {
+    display: flex;
+    align-items: center;
+  }
+}
